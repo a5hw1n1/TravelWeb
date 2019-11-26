@@ -249,7 +249,7 @@ $_SESSION['placetype'] = $placetype;
             window.location.href = "places.php?name=" + d + "&type=" + selectedTypes;
         }
         </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTjv7zOwU3uU7cbqVnzV7fzqpAdcfA37E&callback=initialize&libraries=places" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=" async defer></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 </body>
